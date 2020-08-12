@@ -107,7 +107,8 @@ $ pwd
 
 Directories can be stacked in a queue.
 This can be really helpful when you're frequently moving between
-a set of directories.
+a set of directories. If you are working in multiple different locations on your computer, 
+having to retype the entire filepath can be very slow and frustrating. Using pushd is one way to shortcut this.
 
 The `pushd` command pushes a directory onto the stack:
 ```
