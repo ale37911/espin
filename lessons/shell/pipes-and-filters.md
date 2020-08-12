@@ -35,6 +35,7 @@ This text file is quite long,
 so `more` pages the output.
 You can hit `Enter` or `Spc` to advance through the file,
 and `q` to quit back to the command prompt.
+FYI - windows git bash may not have the "more" command installed. Please use the "less" command as described below instead.
 
 The `more` command also has a more advanced sibling, `less`:
 ```
