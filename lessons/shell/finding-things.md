@@ -76,6 +76,8 @@ in a pager.
 The man page for `find` is quite long.
 Press `q` in the pager to quit and return to the terminal.
 
+FYI if the man command is not working, on windows you can try adding --help after the command
+e.g. $find --help
 
 ## Command history
 
