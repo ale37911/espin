@@ -140,6 +140,9 @@ Use `wget` to download the zip archive:
 $ wget https://github.com/csdms/espin/archive/main.zip
 ```
 
+If wget fails, then use curl
+$curl https://codeload.github.com/csdms/espin/zip/main -o main.zip
+
 The `file` command returns a file's type.
 Use it to verify that file downloaded from GitHub
 is actually a zip archive:
