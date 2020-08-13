@@ -11,15 +11,15 @@ def read():
     try:
         topo = pd.read_csv(topo_file, header=None)
     except IOError:
-        print("IOError: file '{}' cannot be read".format(topo_file))
+        print("IOError: file '{}' cannot be read for some reason".format(topo_file))
     else:
         return topo
 
 
 def display(data, show=False, outfile="boulder_dem.png"):
     fig, ax = plt.subplots()
-    elev = ax.imshow(data, cmap="jet")
-    fig.colorbar(elev, label="Elevation (m)")
+    elev = ax.imshow(data, cmap="viridis")
+    fig.colorbar(elev, label="Elevation (meters)")
     plt.title("Boulder Topography")
 
     if show is True:
